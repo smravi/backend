@@ -1,0 +1,26 @@
+{
+  "name": "bestrong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Be-Strong/backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Be-Strong/backend/issues"
+  },
+  "homepage": "https://github.com/Be-Strong/backend#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "corser": "^2.0.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.3"
+  }
+}
