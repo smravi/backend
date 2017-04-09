@@ -27,6 +27,7 @@ var userSchema = new Schema({
     scans: [{ type: Schema.Types.ObjectId, ref: 'Scan' }],
     drugs: [{ type: Schema.Types.ObjectId, ref: 'Drug' }],
     stories: [{ type: Schema.Types.ObjectId, ref: 'Story' }],
+    cancerdata : {type: Schema.Types.ObjectId, ref: 'Cancerdata'}
 });
 
 // execute before each user save call
@@ -54,7 +55,6 @@ bcrypt.compare(password,this.password, function(err,isMatched)
   if(err) return next(err);
   next(null, isMatched);
 });
-
 }
 
 
